@@ -1,15 +1,29 @@
 * {
-    background-color: antiquewhite;
-    font-family:'Times New Roman', Times, serif
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
 }
 
+body{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: antiquewhite;
+}
 #home {
     text-align: center;
     align-items: center;
 }
 
-body{
-    text-align: justify;
+h1, h3{
+    margin: 20px;
+}
+
+h2 {
+    margin-bottom: 20px;
 }
 
 header {
@@ -32,6 +46,6 @@ img {
 li {
     list-style-position:inside;
     text-align:justify;
-    padding-top: 10px;
+    padding-bottom: 20px;
 }
 
